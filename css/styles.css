@@ -106,12 +106,26 @@ header#main-header {
   position: fixed;
   left: 0;
   right: 0;
+  z-index: 1;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+header#main-header #logo {
+  border-bottom: solid white 2px;
+}
+
+header#main-header #logo a {
+  padding: 0 0.25rem;
+}
+
+header#main-header #logo a img {
+  width: 100px;
+  height: auto;
 }
 
 header#main-header a {
@@ -159,12 +173,14 @@ header#main-header #hamburger {
             transform: translateX(-80vw);
     -webkit-box-shadow: none;
             box-shadow: none;
+    opacity: 0;
     -webkit-transition: all 0.2s ease;
     transition: all 0.2s ease;
   }
   #main-menu.active {
     -webkit-transform: translateX(0vw);
             transform: translateX(0vw);
+    opacity: 1;
     -webkit-box-shadow: 0 0 1rem rgba(0, 0, 0, 0.75);
             box-shadow: 0 0 1rem rgba(0, 0, 0, 0.75);
   }
@@ -233,7 +249,20 @@ header#main-header #hamburger {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 2rem 0;
+  padding: 5rem 0;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  #quienes-somos #valores {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
 }
 
 #quienes-somos #valores .valor {
@@ -253,6 +282,13 @@ header#main-header #hamburger {
       -ms-flex-pack: center;
           justify-content: center;
   text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+  #quienes-somos #valores .valor {
+    margin-bottom: 0;
+  }
 }
 
 #quienes-somos #valores .valor img {

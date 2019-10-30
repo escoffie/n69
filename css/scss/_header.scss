@@ -4,9 +4,21 @@ header#main-header {
     position: fixed;
     left:0;
     right: 0;
+    z-index: 1;
 
     display: flex;
     justify-content: space-between;
+
+    #logo {
+        border-bottom: solid white 2px;
+        a {
+            padding: 0 0.25rem;
+            img {
+                width: 100px;
+                height: auto;
+            }
+        }
+    }
 
     a {
         color: white;
@@ -47,10 +59,12 @@ header#main-header {
         align-content: center;
         transform: translateX(-80vw);
         box-shadow: none;
+        opacity: 0;
         transition: all 0.2s ease;
 
         &.active {
             transform: translateX(0vw);
+            opacity: 1;
             box-shadow: 0 0 1rem rgba(0,0,0,0.75);
         }
     }

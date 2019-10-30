@@ -1,0 +1,15 @@
+@import './scss/variables';
+@import './scss/utilities';
+
+@import './scss/header';
+
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $font-body;
+
+    a {
+        text-decoration: none;
+    }
+}

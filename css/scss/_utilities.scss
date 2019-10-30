@@ -1,0 +1,90 @@
+.bg-black {
+    background-color: $black;
+}
+
+.bg-dark {
+    background-color: $dark;
+}
+
+.bg-gray {
+    background-color: $gray;
+}
+
+.bg-blue {
+    background-color: $blue;
+}
+
+.bg-white {
+    background-color: white;
+}
+.color-black {
+    color: $black;
+}
+
+.color-dark {
+    color: $dark;
+}
+
+.color-gray {
+    color: $gray;
+}
+
+.color-blue {
+    color: $blue;
+}
+
+.color-white {
+    color: white;
+}
+
+.show-md {
+    display: none;
+
+    @media screen and (min-width: 768px) {
+        display: initial !important;
+    }
+}
+
+.container {
+    padding: 0 1rem;
+
+    @media screen and (min-width: 768px) {
+        max-width: 1200px;
+        margin: auto;
+    }
+
+}
+
+.container-fluid {
+    padding: 0 1rem;
+}
+
+@media screen and (min-width: 768px) {
+    .row {
+        display: flex;
+
+        .col {
+            flex: 1;
+            padding: 1rem;
+        }
+    }
+}
+
+.pill {
+    background-color: $gray;
+    color: white;
+    margin: 0 1rem;
+    padding: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+    h2 {
+        text-transform: uppercase;
+        text-align: center;
+        font-weight: normal;
+    }
+
+    @media screen and (min-width: 1200px) {
+        max-width: 1040px;
+        margin: auto;
+    }
+}

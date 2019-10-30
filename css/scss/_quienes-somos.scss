@@ -1,0 +1,50 @@
+#quienes-somos {
+    .pill {
+        border-radius: 1rem;
+        transform: translateY(-5rem);
+
+        .heading {
+            font-weight: bold;
+            font-family: $font-head;
+            line-height: 1;
+            font-size: 2rem;
+            padding: 2rem 0;
+            @media screen and (min-width: 768px) {
+                font-size: 3rem;
+                text-align: right;
+                padding: 0;
+            }
+        }
+
+        .content {
+            p {
+                line-height: 1.5;
+                border-bottom: solid 1px;
+                padding-bottom: 1rem;
+                font-size: 1.2rem;
+                margin: 0;
+            }
+        }
+    }
+
+    #valores {
+        display: flex;
+        padding: 2rem 0;
+
+        .valor {
+            flex: 1;
+            color: white;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-transform: uppercase;
+
+            img {
+                display: block;
+                margin: auto;
+                padding-bottom: 1rem;
+            }
+        }
+    }
+}

@@ -1,7 +1,111 @@
 @import url("https://fonts.googleapis.com/css?family=Noto+Sans:400,700|Poppins:400,700&display=swap");
+.bg-black {
+  background-color: #000;
+}
+
+.bg-dark {
+  background-color: #1b1d1f;
+}
+
+.bg-gray {
+  background-color: #515151;
+}
+
+.bg-blue {
+  background-color: #77c5e8;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.color-black {
+  color: #000;
+}
+
+.color-dark {
+  color: #1b1d1f;
+}
+
+.color-gray {
+  color: #515151;
+}
+
+.color-blue {
+  color: #77c5e8;
+}
+
+.color-white {
+  color: white;
+}
+
+.show-md {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .show-md {
+    display: initial !important;
+  }
+}
+
+.container {
+  padding: 0 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 1200px;
+    margin: auto;
+  }
+}
+
+.container-fluid {
+  padding: 0 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .row .col {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    padding: 1rem;
+  }
+}
+
+.pill {
+  background-color: #515151;
+  color: white;
+  margin: 0 1rem;
+  padding: 1rem;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.pill h2 {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: normal;
+}
+
+@media screen and (min-width: 1200px) {
+  .pill {
+    max-width: 1040px;
+    margin: auto;
+  }
+}
+
 header#main-header {
   background-color: #000;
   padding: 1rem;
+  position: fixed;
+  left: 0;
+  right: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -53,13 +157,108 @@ header#main-header #hamburger {
         align-content: center;
     -webkit-transform: translateX(-80vw);
             transform: translateX(-80vw);
+    -webkit-box-shadow: none;
+            box-shadow: none;
     -webkit-transition: all 0.2s ease;
     transition: all 0.2s ease;
   }
   #main-menu.active {
     -webkit-transform: translateX(0vw);
             transform: translateX(0vw);
+    -webkit-box-shadow: 0 0 1rem rgba(0, 0, 0, 0.75);
+            box-shadow: 0 0 1rem rgba(0, 0, 0, 0.75);
   }
+}
+
+#hero {
+  background-image: url("../../img/hero.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+}
+
+#hero .container {
+  height: 100%;
+  position: relative;
+}
+
+#hero .container .heading {
+  position: absolute;
+  bottom: 5rem;
+}
+
+#hero .container .heading h1 {
+  color: white;
+  line-height: 1.2;
+  font-size: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+  #hero .container .heading h1 {
+    font-size: 4rem;
+  }
+}
+
+#quienes-somos .pill {
+  border-radius: 1rem;
+  -webkit-transform: translateY(-5rem);
+          transform: translateY(-5rem);
+}
+
+#quienes-somos .pill .heading {
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  line-height: 1;
+  font-size: 2rem;
+  padding: 2rem 0;
+}
+
+@media screen and (min-width: 768px) {
+  #quienes-somos .pill .heading {
+    font-size: 3rem;
+    text-align: right;
+    padding: 0;
+  }
+}
+
+#quienes-somos .pill .content p {
+  line-height: 1.5;
+  border-bottom: solid 1px;
+  padding-bottom: 1rem;
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+#quienes-somos #valores {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 2rem 0;
+}
+
+#quienes-somos #valores .valor {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  color: white;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-transform: uppercase;
+}
+
+#quienes-somos #valores .valor img {
+  display: block;
+  margin: auto;
+  padding-bottom: 1rem;
 }
 
 html, body {

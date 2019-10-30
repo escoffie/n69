@@ -17,6 +17,11 @@
 .bg-white {
     background-color: white;
 }
+
+.bg-black-white {
+    background: linear-gradient(180deg, black 50%, white 50%);
+}
+
 .color-black {
     color: $black;
 }
@@ -81,6 +86,16 @@
         text-transform: uppercase;
         text-align: center;
         font-weight: normal;
+    }
+
+    &.pill-top {
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+    }
+
+    &.pill-bottom {
+        border-bottom-left-radius: 1rem;
+        border-bottom-right-radius: 1rem;
     }
 
     @media screen and (min-width: 1200px) {

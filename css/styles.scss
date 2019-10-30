@@ -4,12 +4,14 @@
 @import './scss/header';
 @import './scss/hero';
 @import './scss/quienes-somos';
+@import './scss/servicios';
 
 html, body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: $font-body;
+    overflow-x: hidden;
 
     a {
         text-decoration: none;

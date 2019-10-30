@@ -1,0 +1,95 @@
+#servicios {
+    position: relative;
+
+    .pill {
+
+        #carousel {
+            margin-left: calc(50.75% - 50vw);
+            margin-right: calc(50.75% - 50vw);
+            margin-bottom: 5rem;
+
+            .servicio {
+                background-color: white;
+                color: $black;
+                width: 450px;
+                height: 600px;
+                margin: 0 1rem;
+                display: grid;
+                grid-template-columns: repeat(2, 450px);
+                overflow: hidden;
+                transition: width 0.2s ease;
+
+                &.active {
+                    width: 900px;
+                }
+
+                .portada,
+                .contenido {
+                    width: 450px;
+                    height: 100%;
+                    padding: 1rem;
+                }
+
+                .portada {
+                    position: relative;
+
+                    h3 {
+                        position: absolute;
+                        bottom: 3rem;
+                        left: 3rem;
+                        color: white;
+                        text-transform: uppercase;
+                        font-size: 2rem;
+                        line-height: 0.95;
+                        text-shadow: 0 0 10px black;
+                        width: 250px;
+                        font-family: $font-head;
+
+                        &::after {
+                            content: '';
+                            display: block;
+                            background-color: $blue;
+                            margin-top: 1rem;
+                            height: 5px;
+                            width: 100px;
+                        }
+                    }
+
+                }
+
+                .contenido {
+                    background-color: white;
+
+                    ul {
+                        width: 80%;
+                    }
+                }
+            }
+
+            .servicio-otros {
+                background-image: url(../../img/servicios/otros.jpg);
+            }
+
+            .servicio-persona-fisica {
+                background-image: url(../../img/servicios/persona-fisica.jpg);
+            }
+
+            .servicio-persona-moral {
+                background-image: url(../../img/servicios/persona-moral.jpg);
+            }
+
+            .servicio-propiedad-intelectual {
+                background-image: url(../../img/servicios/propiedad-intelectual.jpg);
+            }
+
+            .servicio-plataforma-de-tramites-digitales {
+                background-image: url(../../img/servicios/plataforma-de-tramites-digitales.jpg);
+            }
+
+            .servicio-bienes-inmuebles {
+                background-image: url(../../img/servicios/bienes-inmuebles.jpg);
+            }
+
+        }
+    }
+}

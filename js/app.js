@@ -16,12 +16,17 @@ links.forEach(function(link){
 
 servbtns.forEach(function(btn){
     btn.addEventListener('click', () => {
-        servbtns.forEach(function(el){
-            if(el != btn) {
-                el.classList.remove('active');
+        let theClass = btn.classList[1];
+        let elements = document.querySelectorAll(`.${theClass}`)
+        console.log(elements);
+        servbtns.forEach(function(b){
+            if(!b.classList.contains(theClass)) {
+                b.classList.remove('active');
             }
         });
-        btn.classList.toggle('active');
+        elements.forEach(function(element){
+            element.classList.toggle('active');
+        });
     });
 });
 
@@ -29,9 +34,11 @@ $('#carousel').slick({
     centerMode: true,
     slidesToShow: 3,
     dots:true,
+    arrows: true,
     autoplay: true,
     autoplaySpeed: 2000,
     variableWidth:true,
+    focusOnSelect: true,
     responsive: [
       {
         breakpoint: 768,

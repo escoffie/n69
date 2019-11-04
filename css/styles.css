@@ -215,7 +215,7 @@ header#main-header #hamburger {
 }
 
 #hero {
-  background-image: url("../../img/hero.jpg");
+  background-image: url("../img/hero.jpg");
   background-size: cover;
   background-position: center;
   height: 600px;
@@ -418,27 +418,27 @@ header#main-header #hamburger {
 }
 
 #servicios .pill #carousel .servicio-otros .portada {
-  background-image: url(../../img/servicios/otros.jpg);
+  background-image: url(../img/servicios/otros.jpg);
 }
 
 #servicios .pill #carousel .servicio-persona-fisica .portada {
-  background-image: url(../../img/servicios/persona-fisica.jpg);
+  background-image: url(../img/servicios/persona-fisica.jpg);
 }
 
 #servicios .pill #carousel .servicio-persona-moral .portada {
-  background-image: url(../../img/servicios/persona-moral.jpg);
+  background-image: url(../img/servicios/persona-moral.jpg);
 }
 
 #servicios .pill #carousel .servicio-propiedad-intelectual .portada {
-  background-image: url(../../img/servicios/propiedad-intelectual.jpg);
+  background-image: url(../img/servicios/propiedad-intelectual.jpg);
 }
 
 #servicios .pill #carousel .servicio-plataforma-de-tramites-digitales .portada {
-  background-image: url(../../img/servicios/plataforma-de-tramites-digitales.jpg);
+  background-image: url(../img/servicios/plataforma-de-tramites-digitales.jpg);
 }
 
 #servicios .pill #carousel .servicio-bienes-inmuebles .portada {
-  background-image: url(../../img/servicios/bienes-inmuebles.jpg);
+  background-image: url(../img/servicios/bienes-inmuebles.jpg);
 }
 
 #servicios .btn {

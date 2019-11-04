@@ -65,7 +65,7 @@ $('#carousel').slick({
 const template = document.querySelector('.miembro');
 const equipo = document.getElementById('equipo');
 
-$.getJSON("../directorio.json", (json) => {
+$.getJSON("./directorio.json", (json) => {
   directorio = json.directorio;
   directorio.forEach(user => {
     const node = copyTemplate(user);

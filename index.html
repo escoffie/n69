@@ -74,7 +74,7 @@
     <!-- Inicia Servicios -->
     <section id="servicios">
 
-        <div class="container-fluid bg-black-white">
+        <div class="container-fluid bg-black-light">
             <div class="pill pill-top pill-bottom">
                 <h2>Servicios</h2>
                 <div id="carousel">
@@ -238,10 +238,70 @@
             </div>
             <a href="#" class="btn btn-contacto">Contáctanos</a>
         </div>
-
+        <div class="container">
+            <div class="row mision-vision">
+                <div class="col">
+                    <h2>Misión</h2>
+                    <p>Somos un Despacho Legal y Notaría Pública que
+                        proporciona a la sociedad seguridad jurídica, protección
+                        patrimonial, asesoría y soluciones, a través de un trabajo
+                        honesto, eficiente y personalizado enfocándonos en la
+                        satisfacción total del cliente.</p>
+                </div>
+                <div class="col">
+                    <h2>Visión</h2>
+                    <p>Ser un despacho líder y referente en Yucatán, que a su
+                        eficiencia y alto sentido ético en asuntos legales sume día
+                        con día una postura de vanguardia, de excelencia, tanto en
+                        procedimientos como en la atención comprometida y leal a
+                        nuestros clientes.</p>
+                </div>
+            </div>
+        </div>
 
     </section>
     <!-- Termina Servicios -->
+
+    <!-- Inicia Equipo -->
+    <section id="nuestro-equipo">
+        <div class="pill pill-top">
+            <h2>Nuestro equipo</h2>
+        </div>
+        <div id="equipo"></div>
+    </section>
+
+    <div class="miembro">
+        <div class="c">
+            <div class="nombre"></div>
+            <div class="tarjeta">
+                <div class="puesto"></div>
+                <div class="contacto">
+                    <div class="email"></div>
+                    <div class="telefono"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Termina Equipo -->
+
+    <!-- Inicia Contacto -->
+    <section id="contacto" class="container-fluid bg-dark color-white">
+        <h2>Contacto</h2>
+        <h3>Déjanos acompañarte en tu proceso legal</h3>
+        <p>Atención personalizada y de calidad en tu servicio notarial.</p>
+        <form action="mail.php">
+            <div class="fields">
+                <input type="text" name="nombre" placeholder="Nombre" required>
+                <input type="email" name="email" placeholder="Correo" required>
+                <input type="text" name="telefono" placeholder="Teléfono" required>
+                <input type="text" name="asunto" placeholder="Asunto" required>
+                <textarea type="text" name="mensaje" placeholder="Mensaje" required></textarea>
+            </div>
+            <button type="submit">Enviar formulario</button>
+        </form>
+    </section>
+    <!-- Termina Contacto -->
+
 
     <!-- Inicia JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"

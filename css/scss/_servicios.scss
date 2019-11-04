@@ -109,6 +109,47 @@
 
         }
     }
+
+    .btn {
+        display: block;
+        margin: 3rem auto;
+        width: 300px;
+        background-color: $black;
+        color: white;
+        text-transform: uppercase;
+        font-family: $font-head;
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-align: center;
+        padding: 1rem;
+
+        &:hover {
+            background-color: $gray;
+        }
+    }
+
+    .mision-vision {
+        padding: 2rem 0;
+
+        .col {
+            padding: 0 2rem;
+            &:first-child {
+                @media screen and (min-width: 768px) {
+                    border-right: 1px solid;
+                }
+            }
+        }
+        h2 {
+            font-family: $font-head;
+            font-weight: bold;
+            font-size: 2rem;
+            margin-bottom: 0;
+        }
+
+        p {
+            text-align: justify;
+        }
+    }
 }
 
 .slick-arrow {
@@ -130,3 +171,4 @@
         font-size: 1rem !important;
     }
 }
+

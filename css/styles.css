@@ -11,8 +11,12 @@
   background-color: #515151;
 }
 
+.bg-light {
+  background-color: rgba(200, 200, 200, 0.2);
+}
+
 .bg-blue {
-  background-color: #77c5e8;
+  background-color: #000000;
 }
 
 .bg-white {
@@ -22,6 +26,11 @@
 .bg-black-white {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, black), color-stop(50%, white));
   background: linear-gradient(180deg, black 50%, white 50%);
+}
+
+.bg-black-light {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, black), color-stop(50%, rgba(200, 200, 200, 0.2)));
+  background: linear-gradient(180deg, black 50%, rgba(200, 200, 200, 0.2) 50%);
 }
 
 .color-black {
@@ -36,8 +45,12 @@
   color: #515151;
 }
 
+.color-light {
+  color: rgba(200, 200, 200, 0.2);
+}
+
 .color-blue {
-  color: #77c5e8;
+  color: #000000;
 }
 
 .color-white {
@@ -55,7 +68,7 @@
 }
 
 .container {
-  padding: 0 1rem;
+  padding: 0.1rem 1rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -66,7 +79,7 @@
 }
 
 .container-fluid {
-  padding: 0 1rem;
+  padding: 0.1rem 1rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -390,7 +403,7 @@ header#main-header #hamburger {
 #servicios .pill #carousel .servicio .portada h3::after {
   content: '';
   display: block;
-  background-color: #77c5e8;
+  background-color: #000000;
   margin-top: 1rem;
   height: 5px;
   width: 100px;
@@ -428,6 +441,49 @@ header#main-header #hamburger {
   background-image: url(../../img/servicios/bienes-inmuebles.jpg);
 }
 
+#servicios .btn {
+  display: block;
+  margin: 3rem auto;
+  width: 300px;
+  background-color: #000;
+  color: white;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 1rem;
+}
+
+#servicios .btn:hover {
+  background-color: #515151;
+}
+
+#servicios .mision-vision {
+  padding: 2rem 0;
+}
+
+#servicios .mision-vision .col {
+  padding: 0 2rem;
+}
+
+@media screen and (min-width: 768px) {
+  #servicios .mision-vision .col:first-child {
+    border-right: 1px solid;
+  }
+}
+
+#servicios .mision-vision h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+
+#servicios .mision-vision p {
+  text-align: justify;
+}
+
 .slick-arrow {
   z-index: 3;
 }
@@ -447,6 +503,166 @@ header#main-header #hamburger {
 .slick-dots button:before {
   color: white !important;
   font-size: 1rem !important;
+}
+
+#nuestro-equipo .container {
+  padding: 2rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#nuestro-equipo #equipo {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+}
+
+#nuestro-equipo #equipo .miembro .c {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 2rem;
+}
+
+#nuestro-equipo #equipo .miembro .c .nombre {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  font-weight: bold;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  padding: 0 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  #nuestro-equipo #equipo .miembro .c .nombre {
+    border-right: solid 1px;
+    padding: 1rem 2rem;
+  }
+}
+
+#nuestro-equipo #equipo .miembro .c .tarjeta {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  padding: 0 2rem;
+  font-size: 0.85rem;
+}
+
+#nuestro-equipo #equipo .miembro .c .tarjeta .puesto {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+#nuestro-equipo #equipo .miembro:first-child {
+  grid-column: 1/-1;
+  background-color: #000;
+  color: white;
+  font-size: 1.2rem;
+}
+
+#nuestro-equipo #equipo .miembro:first-child .c {
+  max-width: 900px;
+  margin: auto;
+}
+
+#nuestro-equipo #equipo .miembro:first-child .c .nombre {
+  text-align: right;
+}
+
+#nuestro-equipo #equipo .miembro:nth-child(4n+2), #nuestro-equipo #equipo .miembro:nth-child(4n+5), #nuestro-equipo #equipo .miembro:nth-child(4n+6), #nuestro-equipo #equipo .miembro:nth-child(4n+9), #nuestro-equipo #equipo .miembro:nth-child(4n+10) {
+  background-color: rgba(200, 200, 200, 0.2);
+}
+
+#nuestro-equipo #equipo .miembro:nth-child(4n+3), #nuestro-equipo #equipo .miembro:nth-child(4n+4), #nuestro-equipo #equipo .miembro:nth-child(4n+7), #nuestro-equipo #equipo .miembro:nth-child(4n+8), #nuestro-equipo #equipo .miembro:nth-child(4n+11), #nuestro-equipo #equipo .miembro:nth-child(4n+12) {
+  background-color: white;
+}
+
+#contacto {
+  text-align: center;
+}
+
+#contacto h2 {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+#contacto h3 {
+  font-size: 2.75rem;
+  max-width: 500px;
+  margin: auto;
+}
+
+#contacto form .fields {
+  max-width: 750px;
+  margin: auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+}
+
+@media screen and (min-width: 768px) {
+  #contacto form .fields {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+}
+
+#contacto form .fields input, #contacto form .fields textarea {
+  margin: 0.5rem;
+  padding: 1.25rem;
+  border-style: none;
+}
+
+#contacto form .fields input::-webkit-input-placeholder, #contacto form .fields textarea::-webkit-input-placeholder {
+  font-family: "Noto Sans", sans-serif !important;
+  color: #515151;
+  font-size: 1rem;
+}
+
+#contacto form .fields input:-ms-input-placeholder, #contacto form .fields textarea:-ms-input-placeholder {
+  font-family: "Noto Sans", sans-serif !important;
+  color: #515151;
+  font-size: 1rem;
+}
+
+#contacto form .fields input::-ms-input-placeholder, #contacto form .fields textarea::-ms-input-placeholder {
+  font-family: "Noto Sans", sans-serif !important;
+  color: #515151;
+  font-size: 1rem;
+}
+
+#contacto form .fields input::placeholder, #contacto form .fields textarea::placeholder {
+  font-family: "Noto Sans", sans-serif !important;
+  color: #515151;
+  font-size: 1rem;
+}
+
+#contacto form .fields textarea {
+  grid-column: 1/-1;
+  height: 100px;
+}
+
+#contacto form button {
+  background-color: #515151;
+  color: white;
+  border-style: none;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 0.75rem 2rem;
+  margin: 1rem auto;
+  border-radius: 3px;
 }
 
 html, body {

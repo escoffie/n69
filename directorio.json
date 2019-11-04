@@ -1,0 +1,64 @@
+{
+    "directorio": [
+        {
+            "nombre": "Hugo Wilbert Evia Bolio",
+            "puesto": "Notario público\r\nAbogado y Especialista en Comercio Exterior",
+            "email": "wilbert.evia@notaria69@yucatan.com.mx",
+            "telefono": "(999) 764 2378 ext. 104"
+        },
+        {
+            "nombre": "Mtra. Aida María Reyes Magaña",
+            "puesto": "Departamento de Litigio",
+            "email": "alda.reyes@notaria69yucatan.com.mx",
+            "telefono": "(999) 926 8684 ext. 206"
+        },
+        {
+            "nombre": "Lic. Leonardo Méndez Mejía",
+            "puesto": "Elaboración, tramitación y cierre de escrituras en la Notaría.",
+            "email": "leonardo.mendez@notaria69yucatan.com.mx",
+            "telefono": "(999) 926 8684 ext. 105"
+        },
+        {
+            "nombre": "Lic. Magda Gdpe. Góngora Durán",
+            "puesto": "Actividad Notarial y Atención a Sociedades Financieras de Objeto Múltiple.",
+            "email": "magda.gongora@notaria69yucatan.com.mx",
+            "telefono": "(999) 926 8684 ext. 213"
+        },
+        {
+            "nombre": "Lic. Mariana Wabi González",
+            "puesto": "Área Corporativa, Propiedad Intelectual y Atención a Instituciones Financieras.",
+            "email": "mariana.waby@notaria69yucatan.com.mx",
+            "telefono": "(999) 926 8684 ext. 116"
+        },
+        {
+            "nombre": "Lic. David Evia Alsina",
+            "puesto": "Área Corporativa",
+            "email": "david.evia@notaria69yucatan.com.mx",
+            "telefono": "(999) 926 8684 ext. 108"
+        },
+        {
+            "nombre": "Lic. Ileana Gdpe. Rejón Pereira",
+            "puesto": "Área Corporativa",
+            "email": "ileana.rejon@notaria69yucatan.com.mx",
+            "telefono": "(999) 926 8684 ext. 115"
+        },
+        {
+            "nombre": "Lic. Ana María Valdez Soberanis",
+            "puesto": "Área Corporativa",
+            "email": "ana.valdez@notaria69yucatan.com.mx",
+            "telefono": "(999) 926 8684 ext. 105"
+        },
+        {
+            "nombre": "Lic. Nilvia Villegas Chim",
+            "puesto": "Coordinación del área de elaboración y atención del instituto del Fondo Nacional de la Vivienda.",
+            "email": "nilvia.villegas@notaria69yucatan.com.mx",
+            "telefono": "(999) 926 8684 ext. 211"
+        },
+        {
+            "nombre": "Lic. Karen Berenice Reyes Mendoza",
+            "puesto": "Área Corporativa",
+            "email": "karen.reyes@notaria69yucatan.com.mx",
+            "telefono": "(999) 926 8684 ext. 207"
+        }
+    ]
+}

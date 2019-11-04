@@ -1,0 +1,54 @@
+#contacto {
+    text-align: center;
+    h2 {
+        font-family: $font-body;
+        font-weight: normal;
+        text-transform: uppercase;
+    }
+    h3 {
+        font-size: 2.75rem;
+        max-width: 500px;
+        margin: auto;
+    }
+    form {
+        .fields {
+            max-width: 750px;
+            margin: auto;
+            display: grid;
+            grid-template-columns: 1fr;
+            @media screen and (min-width: 768px) {
+                grid-template-columns: 1fr 1fr;
+            }
+
+            input, textarea {
+                margin: 0.5rem;
+                padding: 1.25rem;
+                border-style: none;
+                &::placeholder {
+                    font-family: $font-body !important;
+                    color: $gray;
+                    font-size: 1rem;
+                }
+            }
+    
+            textarea {
+                grid-column: 1/-1;
+                height: 100px;
+            }
+
+        }
+
+        button {
+            background-color: $gray;
+            color: white;
+            border-style: none;
+            text-transform: uppercase;
+            font-family: $font-head;
+            font-size: 1.5rem;
+            font-weight: bold;
+            padding: 0.75rem 2rem;
+            margin: 1rem auto;
+            border-radius: 3px;
+        }
+    }
+}

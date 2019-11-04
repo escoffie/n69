@@ -10,6 +10,10 @@
     background-color: $gray;
 }
 
+.bg-light {
+    background-color: $light;
+}
+
 .bg-blue {
     background-color: $blue;
 }
@@ -22,6 +26,10 @@
     background: linear-gradient(180deg, black 50%, white 50%);
 }
 
+.bg-black-light {
+    background: linear-gradient(180deg, black 50%, $light 50%);
+}
+
 .color-black {
     color: $black;
 }
@@ -32,6 +40,10 @@
 
 .color-gray {
     color: $gray;
+}
+
+.color-light {
+    color: $light;
 }
 
 .color-blue {
@@ -51,7 +63,7 @@
 }
 
 .container {
-    padding: 0 1rem;
+    padding: 0.1rem 1rem;
 
     @media screen and (min-width: 768px) {
         max-width: 1200px;
@@ -61,7 +73,7 @@
 }
 
 .container-fluid {
-    padding: 0 1rem;
+    padding: 0.1rem 1rem;
 }
 
 @media screen and (min-width: 768px) {

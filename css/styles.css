@@ -680,6 +680,7 @@ html, body {
           box-sizing: border-box;
   font-family: "Noto Sans", sans-serif;
   overflow-x: hidden;
+  font-size: 14px;
 }
 
 html a, body a {

@@ -2,13 +2,13 @@
     "directorio": [
         {
             "nombre": "Hugo Wilbert Evia Bolio",
-            "puesto": "Notario público\r\nAbogado y Especialista en Comercio Exterior",
+            "puesto": "Notario público\r\nAbogado y Especialista en Comercio Exterior.",
             "email": "wilbert.evia@notaria69@yucatan.com.mx",
             "telefono": "(999) 764 2378 ext. 104"
         },
         {
             "nombre": "Mtra. Aida María Reyes Magaña",
-            "puesto": "Departamento de Litigio",
+            "puesto": "Departamento de Litigio.",
             "email": "alda.reyes@notaria69yucatan.com.mx",
             "telefono": "(999) 926 8684 ext. 206"
         },
@@ -32,19 +32,19 @@
         },
         {
             "nombre": "Lic. David Evia Alsina",
-            "puesto": "Área Corporativa",
+            "puesto": "Área Corporativa.",
             "email": "david.evia@notaria69yucatan.com.mx",
             "telefono": "(999) 926 8684 ext. 108"
         },
         {
             "nombre": "Lic. Ileana Gdpe. Rejón Pereira",
-            "puesto": "Área Corporativa",
+            "puesto": "Área Corporativa.",
             "email": "ileana.rejon@notaria69yucatan.com.mx",
             "telefono": "(999) 926 8684 ext. 115"
         },
         {
             "nombre": "Lic. Ana María Valdez Soberanis",
-            "puesto": "Área Corporativa",
+            "puesto": "Área Corporativa.",
             "email": "ana.valdez@notaria69yucatan.com.mx",
             "telefono": "(999) 926 8684 ext. 105"
         },
@@ -56,9 +56,15 @@
         },
         {
             "nombre": "Lic. Karen Berenice Reyes Mendoza",
-            "puesto": "Área Corporativa",
+            "puesto": "Área Corporativa.",
             "email": "karen.reyes@notaria69yucatan.com.mx",
             "telefono": "(999) 926 8684 ext. 207"
+        },
+        {
+            "nombre": "L. A. E.  Yazmin Alejandra Pacheco Adrián.\n\rAddy Aracelly May Sánchez",
+            "puesto": "Departamento de Administración y Cobros.",
+            "email": "yazmin.pacheco@notaria69yucatan.com.mx, addy.may@notaria69yucatan.com.mx",
+            "telefono": "(999) 926 8684 ext. 102"
         }
     ]
 }

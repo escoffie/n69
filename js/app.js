@@ -92,3 +92,4 @@ function copyTemplate(user) {
 
   return element;
 }
+

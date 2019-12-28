@@ -255,25 +255,25 @@ header#main-header #hamburger {
 }
 
 #hero .crossfade figure:nth-child(1) {
-  background-image: url("/img/carousel/1.jpg");
+  background-image: url("../img/carousel/1.jpg");
 }
 
 #hero .crossfade figure:nth-child(2) {
   -webkit-animation-delay: 6s;
           animation-delay: 6s;
-  background-image: url("/img/carousel/2.jpg");
+  background-image: url("../img/carousel/2.jpg");
 }
 
 #hero .crossfade figure:nth-child(3) {
   -webkit-animation-delay: 12s;
           animation-delay: 12s;
-  background-image: url("/img/carousel/3.jpg");
+  background-image: url("../img/carousel/3.jpg");
 }
 
 #hero .crossfade figure:nth-child(4) {
   -webkit-animation-delay: 18s;
           animation-delay: 18s;
-  background-image: url("/img/carousel/4.jpg");
+  background-image: url("../img/carousel/4.jpg");
 }
 
 @-webkit-keyframes imageAnimation {

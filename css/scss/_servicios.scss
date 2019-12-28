@@ -26,8 +26,13 @@
                 .contenido {
                     width: 450px;
                     height: 100%;
-                    padding: 1rem;
+                    padding: 0 3rem;
                     box-sizing: border-box !important;
+                    font-size: 1.5rem;
+                    display: flex;
+                    flex-direction: column;
+                    align-self: center;
+                    justify-content: center;
                 }
                 
                 .portada {
@@ -83,7 +88,7 @@
                 }
             }
 
-            .servicio-otros .portada {
+            .servicio-actuacion-notarial .portada {
                 background-image: url(../img/servicios/otros.jpg);
             }
 
@@ -95,8 +100,8 @@
                 background-image: url(../img/servicios/persona-moral.jpg);
             }
 
-            .servicio-propiedad-intelectual .portada {
-                background-image: url(../img/servicios/propiedad-intelectual.jpg);
+            .servicio-entidades-bancarias .portada {
+                background-image: url(../img/servicios/entidades-bancarias.jpg);
             }
 
             .servicio-plataforma-de-tramites-digitales .portada {

@@ -9,7 +9,7 @@ hamb.addEventListener('click', () => {
   menu.classList.toggle('active');
 });
 
-links.forEach(function (link) {
+/*links.forEach(function (link) {
   link.addEventListener('click', () => {
     menu.classList.toggle('active');
   });
@@ -29,7 +29,7 @@ servbtns.forEach(function (btn) {
       element.classList.toggle('active');
     });
   });
-});
+});*/
 
 $('#carousel').slick({
   centerMode: true,
@@ -75,8 +75,6 @@ $.getJSON("./directorio.json", (json) => {
 
 function copyTemplate(user) {
   const element = template.cloneNode(true);
-
-  console.log(element);
   
   const nombre = element.querySelector('.nombre');
   nombre.innerText = user.nombre; 

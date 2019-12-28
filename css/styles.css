@@ -432,51 +432,61 @@ header#main-header #hamburger {
 
 #servicios .pill #carousel .servicio {
   color: #000;
-  width: 450px;
-  height: 600px;
   margin: 0 1rem;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (450px)[2];
-      grid-template-columns: repeat(2, 450px);
-  overflow: hidden;
-  cursor: pointer;
+  width: 100%;
+  max-width: 450px;
+  height: 600px;
+  -webkit-perspective: 1000px;
+          perspective: 1000px;
 }
 
-#servicios .pill #carousel .servicio.active {
-  width: 900px;
+#servicios .pill #carousel .servicio:hover .servicio-inner {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
 }
 
-#servicios .pill #carousel .servicio .portada,
-#servicios .pill #carousel .servicio .contenido {
-  width: 450px;
+#servicios .pill #carousel .servicio .servicio-inner {
+  position: relative;
+  width: 100%;
   height: 100%;
+  -webkit-transition: -webkit-transform 0.6s;
+  transition: -webkit-transform 0.6s;
+  transition: transform 0.6s;
+  transition: transform 0.6s, -webkit-transform 0.6s;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+}
+
+#servicios .pill #carousel .servicio .servicio-inner .portada,
+#servicios .pill #carousel .servicio .servicio-inner .contenido {
   padding: 0 3rem;
   -webkit-box-sizing: border-box !important;
           box-sizing: border-box !important;
   font-size: 1.5rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-item-align: center;
-      align-self: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
 }
 
-#servicios .pill #carousel .servicio .portada {
+@media screen and (max-width: 768px) {
+  #servicios .pill #carousel .servicio .servicio-inner .portada,
+  #servicios .pill #carousel .servicio .servicio-inner .contenido {
+    font-size: 1.25rem;
+  }
+}
+
+#servicios .pill #carousel .servicio .servicio-inner .portada {
   background-color: white;
   background-position: center;
   background-size: cover;
   position: relative;
 }
 
-#servicios .pill #carousel .servicio .portada .serv-icon {
+#servicios .pill #carousel .servicio .servicio-inner .portada .serv-icon {
   background-color: #000;
   border-radius: 50%;
   position: absolute;
@@ -496,7 +506,7 @@ header#main-header #hamburger {
           justify-content: center;
 }
 
-#servicios .pill #carousel .servicio .portada h3 {
+#servicios .pill #carousel .servicio .servicio-inner .portada h3 {
   position: absolute;
   bottom: 3rem;
   left: 3rem;
@@ -509,7 +519,7 @@ header#main-header #hamburger {
   font-family: "Poppins", sans-serif;
 }
 
-#servicios .pill #carousel .servicio .portada h3::after {
+#servicios .pill #carousel .servicio .servicio-inner .portada h3::after {
   content: '';
   display: block;
   background-color: #000000;
@@ -520,6 +530,20 @@ header#main-header #hamburger {
 
 #servicios .pill #carousel .servicio .contenido {
   background-color: white;
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-item-align: center;
+      align-self: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 #servicios .pill #carousel .servicio .contenido ul {

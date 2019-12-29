@@ -24,7 +24,7 @@
             <a href="#contacto">Contacto</a>
             <!--<a href="#para-saber-mas">Para saber más</a>-->
         </nav>
-        <div id="hamburger"><a href="#">X</a></div>
+        <div id="hamburger"><a><img src="img/bars-solid.svg" alt="Menú" width="20" height="20"></a></div>
     </header>
     <!-- Termina Header -->
 
@@ -303,7 +303,7 @@
         <h2>Contacto</h2>
         <h3>Déjanos acompañarte en tu proceso legal.</h3>
         <p>Atención personalizada y de calidad en tu servicio notarial.</p>
-        <form action="mailer.php" method="POST"> 
+        <form action="mailer.php" method="POST" id="contact-form"> 
             <div class="fields">
                 <input type="text" name="nombre" placeholder="Nombre" required>
                 <input type="email" name="email" placeholder="Correo" required>
@@ -312,6 +312,7 @@
                 <textarea type="text" name="mensaje" placeholder="Mensaje" required></textarea>
                 <input type="hidden" name="token" id="token">
             </div>
+            <div class="output"></div>
             <button type="submit" name="enviar">Enviar formulario</button>
         </form>
     </section>

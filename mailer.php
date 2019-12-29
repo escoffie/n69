@@ -1,8 +1,6 @@
 <?php
 
-if(isset($_POST['enviar'])) {
-
-    print_r($_POST);
+if(isset($_POST['token'])) {
 
     $url = 'https://www.google.com/recaptcha/api/siteverify';
     $data = [
@@ -24,12 +22,12 @@ if(isset($_POST['enviar'])) {
 
     $res = json_decode($response, true);
 
-    print_r($res);
+    //print_r($res);
 
     if($res['success'] == true) {
-        echo "EXITO";
+        echo "Gracias por comunicarse a Notaría 69. Pronto nos comunicaremos de vuelta con usted.";
     } else {
-        echo "FRACASO";
+        echo "El mensaje no pudo ser enviado. Intente de nuevo más tarde.";
     }
 
 }

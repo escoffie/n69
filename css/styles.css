@@ -175,7 +175,12 @@ header#main-header a {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 0.9rem;
-  border-left: solid 1px;
+}
+
+@media screen and (min-width: 768px) {
+  header#main-header a {
+    border-left: solid 1px;
+  }
 }
 
 header#main-header a:first-child {
@@ -186,7 +191,7 @@ header#main-header #hamburger {
   display: none;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 768px) {
   #main-header #hamburger {
     display: block !important;
   }
@@ -196,7 +201,7 @@ header#main-header #hamburger {
     left: 0;
     width: 80vw;
     height: 100vh;
-    background-color: #1b1d1f;
+    background-color: rgba(27, 29, 31, 0.9);
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -209,6 +214,7 @@ header#main-header #hamburger {
             justify-content: space-evenly;
     -ms-flex-line-pack: center;
         align-content: center;
+    text-align: center;
     -webkit-transform: translateX(-80vw);
             transform: translateX(-80vw);
     -webkit-box-shadow: none;

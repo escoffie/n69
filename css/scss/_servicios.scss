@@ -10,20 +10,25 @@
 
             .servicio {
                 color: $black;
-                margin: 0 1rem;
+                margin: 1rem;
                 
-                width: 100%;
-                max-width: 450px;
+                width: 450px;
                 height: 600px;
                 perspective: 1000px;
-
+                
+                @media screen and (max-width:768px) {
+                    width: 350px;
+                    height: 500px;
+                }
+                
                 &:hover {
                     .servicio-inner {
                         transform: rotateY(180deg);
                     }
                 }
-
+                
                 .servicio-inner {
+                    box-shadow: 0 0 1rem rgba(black, 0.5);
                     position: relative;
                     width: 100%;
                     height: 100%;
@@ -44,7 +49,7 @@
                         backface-visibility: hidden;
 
                         @media screen and (max-width:768px) {
-                            font-size: 1.25rem;
+                            font-size: 1.2rem;
                         }
                     }
                     
@@ -67,6 +72,11 @@
                             display: flex;
                             align-self: center;
                             justify-content: center;
+
+                            @media screen and (max-width:768px) {
+                                bottom: 2rem;
+                                right: 2rem;
+                            }
                         }
     
                         h3 {
@@ -80,6 +90,11 @@
                             text-shadow: 0 0 10px black;
                             width: 250px;
                             font-family: $font-head;
+
+                            @media screen and (max-width:768px) {
+                                bottom: 1rem;
+                                left: 2rem;
+                            }
     
                             &::after {
                                 content: '';

@@ -432,12 +432,18 @@ header#main-header #hamburger {
 
 #servicios .pill #carousel .servicio {
   color: #000;
-  margin: 0 1rem;
-  width: 100%;
-  max-width: 450px;
+  margin: 1rem;
+  width: 450px;
   height: 600px;
   -webkit-perspective: 1000px;
           perspective: 1000px;
+}
+
+@media screen and (max-width: 768px) {
+  #servicios .pill #carousel .servicio {
+    width: 350px;
+    height: 500px;
+  }
 }
 
 #servicios .pill #carousel .servicio:hover .servicio-inner {
@@ -446,6 +452,8 @@ header#main-header #hamburger {
 }
 
 #servicios .pill #carousel .servicio .servicio-inner {
+  -webkit-box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
   position: relative;
   width: 100%;
   height: 100%;
@@ -475,7 +483,7 @@ header#main-header #hamburger {
 @media screen and (max-width: 768px) {
   #servicios .pill #carousel .servicio .servicio-inner .portada,
   #servicios .pill #carousel .servicio .servicio-inner .contenido {
-    font-size: 1.25rem;
+    font-size: 1.2rem;
   }
 }
 
@@ -506,6 +514,13 @@ header#main-header #hamburger {
           justify-content: center;
 }
 
+@media screen and (max-width: 768px) {
+  #servicios .pill #carousel .servicio .servicio-inner .portada .serv-icon {
+    bottom: 2rem;
+    right: 2rem;
+  }
+}
+
 #servicios .pill #carousel .servicio .servicio-inner .portada h3 {
   position: absolute;
   bottom: 3rem;
@@ -517,6 +532,13 @@ header#main-header #hamburger {
   text-shadow: 0 0 10px black;
   width: 250px;
   font-family: "Poppins", sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+  #servicios .pill #carousel .servicio .servicio-inner .portada h3 {
+    bottom: 1rem;
+    left: 2rem;
+  }
 }
 
 #servicios .pill #carousel .servicio .servicio-inner .portada h3::after {

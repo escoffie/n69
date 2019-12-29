@@ -102,7 +102,7 @@ function copyTemplate(user) {
       $('#main-menu li').removeClass('active');
       $(this).parent('li').addClass('active');
       $('html, body').animate({
-          scrollTop: $(destino).offset().top - $('#main-menu').height()
+          scrollTop: $(destino).offset().top - $('#main-header').height() - 30
       }, 200);
   });
 

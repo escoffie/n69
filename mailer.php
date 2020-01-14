@@ -27,9 +27,9 @@ if(isset($_POST['token'])) {
 
     $res = json_decode($response, true);
 
-    //print_r($res);
-
     if($res['success'] == true) {
+        
+
         echo "Gracias por comunicarse a Notaría 69. Pronto nos comunicaremos de vuelta con usted.";
     } else {
         echo "El mensaje no pudo ser enviado. Intente de nuevo más tarde.";

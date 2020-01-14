@@ -9,3 +9,4 @@ deployment:
         - /bin/cp -R css $PATH/
         - /bin/cp -R img $PATH/
         - /bin/cp -R js $PATH/
+        - /bin/cp -R vendor $PATH/

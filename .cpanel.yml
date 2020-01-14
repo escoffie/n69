@@ -9,3 +9,4 @@ deployment:
         - /bin/cp css/styles.css $PATH/css/
         - /bin/cp -R img $PATH/
         - /bin/cp -R js $PATH/
+        

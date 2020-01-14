@@ -85,7 +85,7 @@ if (isset($_POST['token'])) {
                 }
 
             } else {
-                echo "Ocurrió un problema al enviar su mensaje.";
+                echo $error;
             }
 
         }

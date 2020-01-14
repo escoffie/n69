@@ -29,9 +29,10 @@ if (isset($_POST['token'])) {
 
     $res = json_decode($response, true);
 
-    if ($res['success'] == true) {
+    if ($res['success'] == true && enviar()) {
 
         echo "Gracias por comunicarse a Notaría 69. Pronto nos comunicaremos de vuelta con usted.";
+
     } else {
         echo "El mensaje no pudo ser enviado. Intente de nuevo más tarde.";
     }
@@ -51,66 +52,65 @@ function ValidateEmail($value)
     return empty($string) ? true : false;
 }
 
-
-function enviar(){
+function enviar()
+{
 
     $post = (!empty($_POST)) ? true : false;
-    
+
     if ($post) {
-    
+
         $name = stripslashes($_POST['nombre']);
         $email = trim($_POST['email']);
         $phone = trim($_POST['telefono']);
         $subject = stripslashes($_POST['asunto']);
         $message = stripslashes($_POST['mensaje']);
-    
+
         $message = "Nombre: $name
 Email: $email
 Teléfono: $phone
 Asunto: $subject
-Fecha: ".date('Y-m-d H:i:s')."
+Fecha: " . date('Y-m-d H:i:s') . "
 
-Mensaje: 
+Mensaje:
 $message";
-    
+
         $error = '';
-    
-    // Check name
-    
+
+        // Check name
+
         if (!$name) {
             $error .= 'Por favor, proporciona tu nombre completo.<br />';
         }
-    
-    // Check email
-    
+
+        // Check email
+
         if (!$email) {
             $error .= 'Por favor, proporciona tu dirección de email.<br />';
         }
-    
+
         if ($email && !ValidateEmail($email)) {
             $error .= 'Verifica si tu email está bien escrito.<br />';
         }
-    
-    // Check message (length)
-    
+
+        // Check message (length)
+
         if (!$message || strlen($message) < 10) {
             $error .= "Por favor, escribe un mensaje ¿Qué podemos hacer por ti?<br />";
         }
-    
+
         if (!$error) {
             $mail = mail(CONTACT_FORM, $subject, $message,
                 "From: " . $name . " <" . $email . ">\r\n"
                 . "Reply-To: " . $email . "\r\n"
                 . "X-Mailer: PHP/" . phpversion());
-    
+
             if ($mail) {
-                echo 'OK';
+                return true;
             }
-    
+
         } else {
-            echo '<div class="notification_error">' . $error . '</div>';
+            return false;
         }
-    
+
     }
 }
-

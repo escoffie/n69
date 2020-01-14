@@ -1,5 +1,10 @@
 <?php
 
+// ¿A dónde se enviarán los mensajes del formulario?
+define("CONTACT_FORM", 'bernardoescoffie@gmail.com');
+
+// CAPTCHA
+
 if(isset($_POST['token'])) {
 
     $url = 'https://www.google.com/recaptcha/api/siteverify';

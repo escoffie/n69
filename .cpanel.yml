@@ -6,6 +6,6 @@ deployment:
         - /bin/cp mailer.php $PATH
         - /bin/cp favicon.png $PATH
         - /bin/cp directorio.json $PATH
-        - /bin/cp css/styles.css $PATH/
+        - /bin/cp css/styles.css $PATH/css/
         - /bin/cp -R img $PATH/
         - /bin/cp -R js $PATH/

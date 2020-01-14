@@ -1,0 +1,11 @@
+---
+deployment:
+    tasks:
+        - export PATH=/home/notaria69yucatan/public_html/
+        - /bin/cp index.html $PATH
+        - /bin/cp mailer.php $PATH
+        - /bin/cp favicon.png $PATH
+        - /bin/cp directorio.json $PATH
+        - /bin/cp css/styles.css $PATH/
+        - /bin/cp -R img $PATH/
+        - /bin/cp -R js $PATH/

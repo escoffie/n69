@@ -1,34 +1,22 @@
 {
     "directorio": [
         {
-            "nombre": "Hugo Wilbert Evia Bolio",
-            "puesto": "Notario público\r\nAbogado y Especialista en Comercio Exterior.",
+            "nombre": "Abog. Hugo Wilbert Evia Bolio",
+            "puesto": "Notario público.\r\nAbogado y Especialista en Comercio Exterior.\r\nNotario del Patrimonio Inmobiliario Federal.",
             "email": "wilbert.evia@notaria69@yucatan.com.mx",
             "telefono": "(999) 764 2378 ext. 104"
         },
         {
-            "nombre": "Mtra. Aida María Reyes Magaña",
-            "puesto": "Departamento de Litigio.",
-            "email": "alda.reyes@notaria69yucatan.com.mx",
-            "telefono": "(999) 926 8684 ext. 206"
-        },
-        {
-            "nombre": "Lic. Leonardo Méndez Mejía",
-            "puesto": "Elaboración, tramitación y cierre de escrituras en la Notaría.",
-            "email": "leonardo.mendez@notaria69yucatan.com.mx",
-            "telefono": "(999) 926 8684 ext. 105"
-        },
-        {
-            "nombre": "Lic. Magda Gdpe. Góngora Durán",
-            "puesto": "Actividad Notarial y Atención a Sociedades Financieras de Objeto Múltiple.",
-            "email": "magda.gongora@notaria69yucatan.com.mx",
-            "telefono": "(999) 926 8684 ext. 213"
-        },
-        {
             "nombre": "Lic. Mariana Wabi González",
             "puesto": "Área Corporativa, Propiedad Intelectual y Atención a Instituciones Financieras.",
-            "email": "mariana.waby@notaria69yucatan.com.mx",
+            "email": "mariana.wabi@notaria69yucatan.com.mx",
             "telefono": "(999) 926 8684 ext. 116"
+        },
+        {
+            "nombre": "Mtra. Aida María Reyes Magaña",
+            "puesto": "Departamento de Litigio.",
+            "email": "aida.reyes@notaria69yucatan.com.mx",
+            "telefono": "(999) 926 8684 ext. 206"
         },
         {
             "nombre": "Lic. David Evia Alsina",
@@ -37,10 +25,22 @@
             "telefono": "(999) 926 8684 ext. 108"
         },
         {
+            "nombre": "Lic. Magda Gdpe. Góngora Durán",
+            "puesto": "Actividad Notarial y Atención a Sociedades Financieras de Objeto Múltiple.",
+            "email": "magda.gongora@notaria69yucatan.com.mx",
+            "telefono": "(999) 926 8684 ext. 213"
+        },
+        {
             "nombre": "Lic. Ileana Gdpe. Rejón Pereira",
             "puesto": "Área Corporativa.",
             "email": "ileana.rejon@notaria69yucatan.com.mx",
             "telefono": "(999) 926 8684 ext. 115"
+        },
+        {
+            "nombre": "Lic. Leonardo Méndez Mejía",
+            "puesto": "Elaboración, tramitación y cierre de escrituras en la Notaría.",
+            "email": "leonardo.mendez@notaria69yucatan.com.mx",
+            "telefono": "(999) 926 8684 ext. 105"
         },
         {
             "nombre": "Lic. Ana María Valdez Soberanis",
@@ -54,6 +54,13 @@
             "email": "nilvia.villegas@notaria69yucatan.com.mx",
             "telefono": "(999) 926 8684 ext. 211"
         },
+
+        {
+            "nombre": "L. A. E.  Yazmin Alejandra Pacheco Adrián.",
+            "puesto": "Departamento de Administración y Cobros.",
+            "email": "yazmin.pacheco@notaria69yucatan.com.mx",
+            "telefono": "(999) 926 8684 ext. 102"
+        },
         {
             "nombre": "Lic. Karen Berenice Reyes Mendoza",
             "puesto": "Área Corporativa.",
@@ -61,10 +68,10 @@
             "telefono": "(999) 926 8684 ext. 207"
         },
         {
-            "nombre": "L. A. E.  Yazmin Alejandra Pacheco Adrián.\n\rAddy Aracelly May Sánchez",
+            "nombre": "Addy Aracelly May Sánchez",
             "puesto": "Departamento de Administración y Cobros.",
-            "email": "yazmin.pacheco@notaria69yucatan.com.mx, addy.may@notaria69yucatan.com.mx",
-            "telefono": "(999) 926 8684 ext. 102"
+            "email": "addy.may@notaria69yucatan.com.mx",
+            "telefono": "(999) 926 8684 ext. 103"
         }
     ]
 }

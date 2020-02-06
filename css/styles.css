@@ -341,7 +341,7 @@ header#main-header #hamburger {
 
 @media screen and (min-width: 768px) {
   #hero .crossfade .heading h1 {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 }
 
@@ -747,6 +747,17 @@ header#main-header #hamburger {
 
 #nuestro-equipo #equipo .miembro:first-child .c .nombre {
   text-align: right;
+}
+
+@media screen and (min-width: 768px) {
+  #nuestro-equipo #equipo .miembro:first-child .c {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+}
+
+#nuestro-equipo #equipo .miembro:first-child .c .puesto {
+  font-size: 0.95rem;
 }
 
 #nuestro-equipo #equipo .miembro:nth-child(4n+2), #nuestro-equipo #equipo .miembro:nth-child(4n+5), #nuestro-equipo #equipo .miembro:nth-child(4n+6), #nuestro-equipo #equipo .miembro:nth-child(4n+9), #nuestro-equipo #equipo .miembro:nth-child(4n+10) {

@@ -3,7 +3,7 @@
 error_reporting(E_ALL ^ E_NOTICE);
 
 // ¿A dónde se enviarán los mensajes del formulario?
-define("CONTACT_FORM", 'david.evia@notaria69yucatan.com.mx');
+define("CONTACT_FORM", 'contacto@notaria69yucatan.com.mx');
 
 // CAPTCHA
 

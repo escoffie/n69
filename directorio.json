@@ -2,13 +2,13 @@
     "directorio": [
         {
             "nombre": "Abog. Hugo Wilbert Evia Bolio",
-            "puesto": "Notario público.\r\nAbogado y Especialista en Comercio Exterior.",
+            "puesto": "Notario público. Abogado y Especialista en Comercio Exterior.",
             "email": "wilbert.evia@notaria69@yucatan.com.mx",
             "telefono": "(999) 926 1036 ext. 104"
         },
         {
             "nombre": "Lic. Mariana Wabi González",
-            "puesto": "Área Corporativa, Instituciones Financieras.\r\nAspirante a Notario.",
+            "puesto": "Área Corporativa, Instituciones Financieras. Aspirante a Notario.",
             "email": "mariana.wabi@notaria69yucatan.com.mx",
             "telefono": "(999) 926 8684 ext. 116"
         },
@@ -20,7 +20,7 @@
         },
         {
             "nombre": "Lic. David Evia Alsina",
-            "puesto": "Área Corporativa, Consultoría Legal, Plataformas Digitales.",
+            "puesto": "Área Corporativa, Actividad Notarial, Consultoría Legal.",
             "email": "david.evia@notaria69yucatan.com.mx",
             "telefono": "(999) 926 8684 ext. 108"
         },
@@ -43,35 +43,88 @@
             "telefono": "(999) 926 8684 ext. 208"
         },
         {
-            "nombre": "Lic. Ana María Valdez Soberanis",
-            "puesto": "Área Corporativa.",
-            "email": "ana.valdez@notaria69yucatan.com.mx",
-            "telefono": "(999) 926 8684 ext. 105"
-        },
-        {
             "nombre": "Lic. Nilvia Villegas Chim",
             "puesto": "Actividad Notarial, INFONAVIT.",
             "email": "nilvia.villegas@notaria69yucatan.com.mx",
             "telefono": "(999) 926 8684 ext. 214"
         },
-
         {
-            "nombre": "L.A.E. Yazmin Alejandra Pacheco Adrián.",
-            "puesto": "Departamento de Administración y Cobranza.",
+            "nombre": "L.A.E. Yazmin Alejandra Pacheco Adrián",
+            "puesto": "Departamento de administración y cobranza.",
             "email": "yazmin.pacheco@notaria69yucatan.com.mx",
             "telefono": "(999) 926 8684 ext. 102"
         },
         {
-            "nombre": "Lic. Karen Berenice Reyes Mendoza",
-            "puesto": "Actividad Notarial, Plataformas Digitales.",
-            "email": "karen.reyes@notaria69yucatan.com.mx",
-            "telefono": "(999) 926 8684 ext. 207"
+            "nombre": "Lic. Karime G. Ordoñez Burgos",
+            "puesto": "Actividad Notarial, Consultoría Legal.",
+            "email": "karime.burgos@notaria69yucatan.com.mx",
+            "telefono": "(999) 926 8682 ext. 105"
         },
         {
-            "nombre": "Addy Aracelly May Sánchez",
-            "puesto": "Departamento de Administración y Cobranza.",
-            "email": "addy.may@notaria69yucatan.com.mx",
-            "telefono": "(999) 926 8684 ext. 103"
+            "nombre": "Lic. Rodrigo de Jesús Vallle Cano",
+            "puesto": "Actividad Notarial, Área corporativa, Consultoría Legal.",
+            "email": "rodrigo.valle@notaria69yucatan.com.mx",
+            "telefono": "(999) 926 86 82 ext. 106"
+        },
+        {
+            "nombre": "Lic. Melissa Alejandra Gurrutia González",
+            "puesto": "Instituciones Financieras, Contratos Civiles.",
+            "email": "melissa.gurrutia@notaria69yucatan.com.mx",
+            "telefono": "(999) 926 86 82 ext. 115"
+        },
+        {
+            "nombre": "Lic. Asis Soberanis Soberanis",
+            "puesto": "Actividad Notarial, Contrato Civiles.",
+            "email": "asis.soberanis@notaria69yucatan.com.mx",
+            "telefono": "(999) 926 86 82 ext. 110"
+        },
+        {
+            "nombre": "Lic. Maricruz Nahuat Ake",
+            "puesto": "Actividad Notarial, Contrato Civiles.",
+            "email": "maricruz.nahuat@notaria69yucatan.com.mx",
+            "telefono": "(999) 926 86 82 ext. 115"
+        },
+        {
+            "nombre": "Lic. Cinthia Alejandra Ceh García",
+            "puesto": "Actividad Notarial, Contrato Civiles.",
+            "email": "cinthia.ceh@notaria69yucatan.com.mx",
+            "telefono": "(999) 926 86 82 ext. 110"
+        },
+        {
+            "nombre": "Lic. Michelle Andrea Ravell González",
+            "puesto": "Departamento de administración y cobranza.",
+            "email": "michelle.ravell@notaria69yucatan.com.mx",
+            "telefono": "(999) 926 86 82 ext. 103"
+        },
+        {
+            "nombre": "Cinthia del Carmen Solis Cobos",
+            "puesto": "Recepción",
+            "email": "recepcion@notaria69yucatan.com.mx",
+            "telefono": "(999) 926 86 82 ext. 101"
+        },
+        {
+            "nombre": "Lic. Ana Sofia González Hoy",
+            "puesto": "Actividad Notarial, Contratos Civiles.",
+            "email": "sofia.gonzalez@notaria69yucatan.com.mx",
+            "telefono": "(999) 926 86 82 ext. 109"
+        },
+        {
+            "nombre": "Rita Chuc Careto",
+            "puesto": "INFONAVIT.",
+            "email": "rita.chuc@notaria69yucatan.com.mx",
+            "telefono": "(999) 926 86 82 ext. 216"
+        },
+        {
+            "nombre": "Lic. Carlos Ceballos Novelo",
+            "puesto": "Actividad Notarial, Contratos Civiles.",
+            "email": "carlos.ceballos@notaria69yucatan.com.mx",
+            "telefono": "(999) 926 86 82 ext. 109"
+        },
+        {
+            "nombre": "Grisel E. Balam Herrera",
+            "puesto": "INFONAVIT.",
+            "email": "grisel.balam@notaria69yucatan.com.mx",
+            "telefono": "(999) 926 86 82 ext. 216"
         }
     ]
 }
